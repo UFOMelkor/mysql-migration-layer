@@ -25,7 +25,7 @@ After installing replace all `mysql_*()` calls with `\MySQL\Proxy::*()`.
 You can do this step automatically. Therefore you must also install [nikic/php-parser](https://github.com/nikic/PHP-Parser):
 
 ```shell
-php composer.phar require nikic/php-parser
+php composer.phar require nikic/php-parser:1.*
 ```
 
 Then you can run the converter by calling:
